@@ -1,0 +1,9 @@
+id,amount,applicable_type,chart_template_id/id,sequence,name,type,type_tax_use
+account.otaxs,0.15,True,l10n_lt,1,OTAX S,Percent,Purchase
+account.otaxr,0.05,True,l10n_lt,1,OTAX R,Percent,Purchase
+account.otaxx,,True,l10n_lt,1,OTAX X,Percent,Purchase
+account.itaxs,0.15,True,l10n_lt,1,ITAX S,Percent,Sale
+account.itaxr,0.05,True,l10n_lt,1,ITAX R,Percent,Sale
+account.itaxx,,True,l10n_lt,1,ITAX X,Percent,Sale
+account.itaxo,0.21,True,l10n_lt,1,Tax 21.00%,Percent,Sale
+account.otaxo,0.21,True,l10n_lt,1,Purchase Tax 21.00%,Percent,Purchase

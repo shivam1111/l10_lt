@@ -1,0 +1,24 @@
+id,notprintable,parent_id/id,sign,name
+account.tax_code_base_sales,False,account.tax_code_base_net,1,Base of Taxable Sales
+account.tax_code_chart_root,False,,1,Plan Fees 
+account.tax_code_base_purchases,False,account.tax_code_base_net,1,Taxable Purchases Base
+account.tax_code_purch_R,False,account.tax_code_base_purchases,1,Taxable Purchases Rated R (5%)
+account.tax_code_purch_S,False,account.tax_code_base_purchases,1,Taxable Purchases Rated S (15%)
+account.tax_code_purch_O,False,account.tax_code_base_purchases,1,Taxable Purchases Type O (Out of scope)
+account.tax_code_purch_X,False,account.tax_code_base_purchases,1,Taxable Purchases Type X (Exempt)
+account.tax_code_sales_R,False,account.tax_code_base_sales,1,Taxable Sales Rated R (5%)
+account.tax_code_sales_S,False,account.tax_code_base_sales,1,Taxable Sales Rated S (15%)
+account.tax_code_sales_O,False,account.tax_code_base_sales,1,Taxable Sales Type O (Out of scope)
+account.tax_code_sales_X,False,account.tax_code_base_sales,1,Taxable Sales Type X (Exempt)
+account.tax_code_balance_net,False,account.tax_code_chart_root,1,Tax Balance to Pay
+account.tax_code_base_net,False,account.tax_code_chart_root,1,Tax Bases
+account.tax_code_output,False,account.tax_code_balance_net,1,Tax Paid
+account.tax_code_output_O,False,account.tax_code_output,1,Tax Paid Rate O (Out of scope)
+account.tax_code_output_R,False,account.tax_code_output,1,Tax Paid Rate R (5%)
+account.tax_code_output_S,False,account.tax_code_output,1,Tax Paid Rate S (15%)
+account.tax_code_output_X,False,account.tax_code_output,1,Tax Paid Rate X (Exempt)
+account.tax_code_input,False,account.tax_code_balance_net,-1,Tax Received
+account.tax_code_input_O,False,account.tax_code_input,1,Tax Received Rate O (Out of scope)
+account.tax_code_input_R,False,account.tax_code_input,1,Tax Received Rate R (5%)
+account.tax_code_input_S,False,account.tax_code_input,1,Tax Received Rate S (15%)
+account.tax_code_input_X,False,account.tax_code_input,1,Tax Received Rate X (Exempt)
